@@ -12,7 +12,7 @@ export default function Projects() {
             }>Youtube Clon</figcaption>
             <img
               className={styles.ProjectImg}
-              src="public/ProjectsImg/Logo.jpeg"
+              src="ProjectsImg/Logo.jpeg"
               alt=""
             />
             <figcaption className={styles.ProjectCaption}>
@@ -25,7 +25,7 @@ export default function Projects() {
             }>Youtube Clon</figcaption>
             <img
               className={styles.ProjectImg}
-              src="public/ProjectsImg/Logo.jpeg"
+              src="ProjectsImg/Logo.jpeg"
               alt=""
             />
             <figcaption className={styles.ProjectCaption}>

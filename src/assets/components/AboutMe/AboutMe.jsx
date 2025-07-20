@@ -25,7 +25,7 @@ export default function AboutMe() {
         <img
           className={styles.Avatar}
           title="Avatar de Leonardo"
-          src="public/images/Avatar.webp"
+          src="images/Avatar.webp"
           alt="Avatar de Leonardo"
         />
       </section>
