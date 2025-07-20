@@ -1,0 +1,117 @@
+import styles from "./Skills.module.css";
+export default function Skills() {
+  return (
+    <section className={styles.Skills}>
+      <h2 className={styles.Title}>Skills</h2>
+      <p className={styles.Description}>
+        Como estudiante de Física, he desarrollado una fuerte capacidad
+        analítica y un pensamiento estructurado que aplico directamente en mi
+        enfoque como desarrollador Frontend. Estas son las tecnologias que uso
+        para desarrollar actualmente:
+      </p>
+      <div className={styles.WorkTechs}>
+        <article className={styles.TechCont}>
+          <header className={styles.SkillHead}>Tecnologias Frontend</header>
+          <figure className={styles.Tech}>
+            <img
+              src="./src/assets/components/images/JavaScriptIcon.svg"
+              alt="JavaScript"
+              className={styles.Image}
+            />
+            <figcaption className={styles.Caption}>JavaScript</figcaption>
+          </figure>
+          <figure className={styles.Tech}>
+            <img
+              src="./src/assets/components/images/TailwindCSSIcon.svg"
+              alt="JavaScript"
+              className={styles.Image}
+            />
+            <figcaption className={styles.Caption}>Tailwind CSS</figcaption>
+          </figure>
+          <figure className={styles.Tech}>
+            <img
+              src="./src/assets/components/images/HtmlIcon.svg"
+              alt="HTML"
+              className={styles.Image}
+            />
+            <figcaption className={styles.Caption}>HTML</figcaption>
+          </figure>
+
+          <figure className={styles.Tech}>
+            <img
+              src="./src/assets/components/images/CssIcon.svg"
+              alt="CSS"
+              className={styles.Image}
+            />
+            <figcaption className={styles.Caption}>CSS</figcaption>
+          </figure>
+          <figure className={styles.Tech}>
+            <img
+              src="./src/assets/components/images/ReactIcon.svg"
+              alt="React"
+              className={styles.Image}
+            />
+            <figcaption className={styles.Caption}>React</figcaption>
+          </figure>
+        </article>
+        <article className={styles.TechCont}>
+          <header className={styles.SkillHead}>Entorno de desarrollo</header>
+          <figure className={styles.Tech}>
+            <img
+              src="./src/assets/components/images/LinuxIcon.svg"
+              alt="Linux"
+              className={styles.Image}
+            />
+            <figcaption className={styles.Caption}>Linux Ubuntu</figcaption>
+          </figure>
+          <figure className={styles.Tech}>
+            <img
+              src="./src/assets/components/images/VsCodeIcon.svg"
+              alt="VsCode"
+              className={styles.Image}
+            />
+            <figcaption className={styles.Caption}>
+              Visual Studio Code
+            </figcaption>
+          </figure>
+          <figure className={styles.Tech}>
+            <img
+              src="./src/assets/components/images/GitIcon.svg"
+              alt="Git"
+              className={styles.Image}
+            />
+            <figcaption className={styles.Caption}>Git</figcaption>
+          </figure>
+        </article>
+        <article className={styles.TechCont}>
+          <header className={styles.SkillHead}>Tecnologias Backend</header>
+          <figure className={styles.Tech}>
+            <img
+              src="./src/assets/components/images/CsharpIcon.svg"
+              alt="C#"
+              className={styles.Image}
+            />
+            <figcaption className={styles.Caption}>C#</figcaption>
+          </figure>
+          <figure className={styles.Tech}>
+            <img
+              src="./src/assets/components/images/DotNet.svg"
+              alt=".NET"
+              className={styles.Image}
+            />
+            <figcaption className={styles.Caption}>.NET</figcaption>
+          </figure>
+          <figure className={styles.Tech}>
+            <img
+              src="./src/assets/components/images/NodeJsIcon.svg"
+              alt="Node.Js"
+              className={styles.Image}
+            />
+            <figcaption className={styles.Caption}>Node.js</figcaption>
+          </figure>
+        </article>
+      </div>
+      <h3>Aunque tambien me encuentro aprendiendo algunas otras.</h3>
+    </section>
+  );
+}

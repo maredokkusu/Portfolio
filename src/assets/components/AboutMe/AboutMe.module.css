@@ -1,0 +1,100 @@
+.container {
+  width: 100%;
+}
+.HeaderSpace {
+  height: 105px;
+  width: 95%;
+}
+.Hello {
+  justify-self: center;
+  text-align: center;
+}
+.Name {
+  font-size: xx-large;
+}
+.AroundMe {
+  overflow: hidden;
+  border: solid rgba(255, 255, 255, 0.1) 2px;
+  align-items: center;
+  display: flex;
+  height: auto;
+  width: 70%;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 10px black;
+  backdrop-filter: blur(5px);
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+.AboutMe {
+  margin-top: 50px;
+  text-align: center;
+  flex-shrink: 0;
+  width: auto;
+  background: linear-gradient(
+    to right,
+    #72aaff,
+    #f268ff,
+    #fb2cff,
+    #68fcff,
+    #72aaff
+  );
+  background-size: 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate-gradient 2s linear infinite;
+}
+@keyframes animate-gradient {
+  to {
+    background-position: 200%;
+  }
+}
+.Info {
+  display: inline-block;
+  padding: 30px;
+}
+.Avatar {
+  border: solid #68fcff;
+  border-radius: 50%;
+  height: 125px;
+  width: 125px;
+  display: inline-block;
+  margin-right: 5%;
+}
+
+@media (max-width: 850px) {
+  .AroundMe {
+    width: 80%;
+    flex-direction: column;
+  }
+
+  .Avatar {
+    width: 110px;
+    height: 110px;
+    margin: 0;
+    margin-bottom: 5%;
+  }
+  .HeaderSpace {
+    height: 105px;
+  }
+  .Info {
+    margin-top: 5%;
+  }
+}
+@media (max-width: 410px) {
+  .AroundMe {
+    width: 75%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  .Info {
+    font-size: 100%;
+    width: auto;
+  }
+  .Avatar {
+    margin: 0;
+    margin-bottom: 5%;
+  }
+}

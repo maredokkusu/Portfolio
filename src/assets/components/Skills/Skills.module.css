@@ -1,0 +1,83 @@
+.Image {
+  padding: 10px;
+  border: solid rgba(255, 255, 255, 0.5) 2px;
+  border-radius: 20px;
+  width: 60px;
+  height: 60px;
+  transition: 0.3s ease-in-out;
+}
+.Skills {
+  border: solid rgba(255, 255, 255, 0.1) 2px;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 10px black;
+  padding: 2%;
+  border-radius: 15px;
+  margin-top: 5%;
+  text-align: center;
+  width: 80%;
+  justify-self: center;
+  height: 60%;
+  margin-bottom: 5%;
+}
+.Tech {
+  display: inline-block;
+}
+.Caption {
+  text-align: center;
+  width: 135px;
+  height: 50px;
+}
+.TechCont {
+  border: solid rgba(255, 255, 255, 0.2);
+  justify-self: center;
+  margin-top: 5%;
+  border-radius: 10px;
+  width: 95%;
+}
+.WorkTechs {
+  width: 100%;
+  grid-template-columns: 50% 50%;
+}
+.SkillHead {
+  margin: 5%;
+  font-size: large;
+  font-weight: bold;
+  height: 10%;
+  align-items: center;
+  align-content: center;
+}
+@media (max-width: 850px) {
+  .Tech {
+    margin: 0;
+  }
+  .Image {
+    padding: 5px;
+    width: 45px;
+    height: 45px;
+  }
+  .SkillHead {
+    margin: 5%;
+  }
+}
+@media (max-width: 410px) {
+  .TechCont {
+    border: solid rgba(255, 255, 255, 0.2);
+    justify-self: center;
+    margin-top: 5%;
+    border-radius: 10px;
+    width: 95%;
+    flex-direction: row;
+  }
+  .Tech {
+    margin: 0;
+  }
+  .Image {
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+  }
+  .WorkTechs {
+    display: initial;
+  }
+  .SkillHead{margin: 5%;}
+}

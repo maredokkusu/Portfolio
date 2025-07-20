@@ -1,0 +1,40 @@
+.Projects {
+  border: solid rgba(255, 255, 255, 0.1) 2px;
+  display: flex;
+  width: 80%;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 10px black;
+  backdrop-filter: blur(5px);
+  justify-self: center;
+  margin-bottom: 5%;
+  height: 30%;
+  justify-content: center;
+}
+.Header {
+  justify-self: center;
+}
+.ProjectImg {
+  width: 80%;
+  height: 100px;
+}
+.Project {
+  padding: 5%;
+  align-content: center;
+  justify-items: center;
+  border: solid white 1px;
+  border-radius: 10px;
+  text-align: center;
+  width: 45%;
+}
+.ProjectCaption {
+  margin-top: 5%;
+  width: 75%;
+  border: solid white 1px;
+  border-radius: 5px;
+}
+.ProjectHeader {
+  margin-bottom: 5%;
+  font-size: x-large;
+  font-weight: bold;
+}
