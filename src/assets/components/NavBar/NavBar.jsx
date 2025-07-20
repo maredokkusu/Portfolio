@@ -6,13 +6,13 @@ export default function NavBar() {
   };
   const ProfLinks = {
     GitHub: "https://github.com/maredokkusu",
-    GitHubImg: "public/images/github-mark.svg",
+    GitHubImg: "images/github-mark.svg",
     Linkedin:
       "https://www.linkedin.com/in/leonardo-yael-conde-flores-562b64315/",
-    LinkedinImg: "public/images/LinkedinIcon.svg",
+    LinkedinImg: "images/LinkedinIcon.svg",
     Indeed:
       "https://profile.indeed.com/?hl=es_MX&co=MX&from=gnav-jobseeker-profile--profile-one-frontend",
-    IndeedImg: "public/images/IndeedLogo.svg",
+    IndeedImg: "images/IndeedLogo.svg",
   };
   return (
     <div className={styles.container}>

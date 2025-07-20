@@ -87,7 +87,7 @@ export default function Skills() {
           <header className={styles.SkillHead}>Tecnologias Backend</header>
           <figure className={styles.Tech}>
             <img
-              src="/CsharpIcon.svg"
+              src="images/CsharpIcon.svg"
               alt="C#"
               className={styles.Image}
             />
@@ -95,7 +95,7 @@ export default function Skills() {
           </figure>
           <figure className={styles.Tech}>
             <img
-              src="/DotNet.svg"
+              src="images/DotNet.svg"
               alt=".NET"
               className={styles.Image}
             />
@@ -103,7 +103,7 @@ export default function Skills() {
           </figure>
           <figure className={styles.Tech}>
             <img
-              src="/NodeJsIcon.svg"
+              src="images/NodeJsIcon.svg"
               alt="Node.Js"
               className={styles.Image}
             />
