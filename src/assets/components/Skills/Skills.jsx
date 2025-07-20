@@ -14,7 +14,7 @@ export default function Skills() {
           <header className={styles.SkillHead}>Tecnologias Frontend</header>
           <figure className={styles.Tech}>
             <img
-              src="./src/assets/components/images/JavaScriptIcon.svg"
+              src="public/images/JavaScriptIcon.svg"
               alt="JavaScript"
               className={styles.Image}
             />
@@ -22,7 +22,7 @@ export default function Skills() {
           </figure>
           <figure className={styles.Tech}>
             <img
-              src="./src/assets/components/images/TailwindCSSIcon.svg"
+              src="public/images/TailwindCSSIcon.svg"
               alt="JavaScript"
               className={styles.Image}
             />
@@ -30,7 +30,7 @@ export default function Skills() {
           </figure>
           <figure className={styles.Tech}>
             <img
-              src="./src/assets/components/images/HtmlIcon.svg"
+              src="public/images/HtmlIcon.svg"
               alt="HTML"
               className={styles.Image}
             />
@@ -39,7 +39,7 @@ export default function Skills() {
 
           <figure className={styles.Tech}>
             <img
-              src="./src/assets/components/images/CssIcon.svg"
+              src="public/images/CssIcon.svg"
               alt="CSS"
               className={styles.Image}
             />
@@ -47,7 +47,7 @@ export default function Skills() {
           </figure>
           <figure className={styles.Tech}>
             <img
-              src="./src/assets/components/images/ReactIcon.svg"
+              src="public/images/ReactIcon.svg"
               alt="React"
               className={styles.Image}
             />
@@ -58,7 +58,7 @@ export default function Skills() {
           <header className={styles.SkillHead}>Entorno de desarrollo</header>
           <figure className={styles.Tech}>
             <img
-              src="./src/assets/components/images/LinuxIcon.svg"
+              src="public/images/LinuxIcon.svg"
               alt="Linux"
               className={styles.Image}
             />
@@ -66,7 +66,7 @@ export default function Skills() {
           </figure>
           <figure className={styles.Tech}>
             <img
-              src="./src/assets/components/images/VsCodeIcon.svg"
+              src="public/images/VsCodeIcon.svg"
               alt="VsCode"
               className={styles.Image}
             />
@@ -76,7 +76,7 @@ export default function Skills() {
           </figure>
           <figure className={styles.Tech}>
             <img
-              src="./src/assets/components/images/GitIcon.svg"
+              src="public/images/GitIcon.svg"
               alt="Git"
               className={styles.Image}
             />
@@ -87,7 +87,7 @@ export default function Skills() {
           <header className={styles.SkillHead}>Tecnologias Backend</header>
           <figure className={styles.Tech}>
             <img
-              src="./src/assets/components/images/CsharpIcon.svg"
+              src="public/images/CsharpIcon.svg"
               alt="C#"
               className={styles.Image}
             />
@@ -95,7 +95,7 @@ export default function Skills() {
           </figure>
           <figure className={styles.Tech}>
             <img
-              src="./src/assets/components/images/DotNet.svg"
+              src="public/images/DotNet.svg"
               alt=".NET"
               className={styles.Image}
             />
@@ -103,7 +103,7 @@ export default function Skills() {
           </figure>
           <figure className={styles.Tech}>
             <img
-              src="./src/assets/components/images/NodeJsIcon.svg"
+              src="public/images/NodeJsIcon.svg"
               alt="Node.Js"
               className={styles.Image}
             />
