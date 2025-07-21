@@ -24,17 +24,6 @@ export default function NavBar() {
           alt="Maredokkusu img"
         />
         <h2 className={styles.Title}>{NavElements.topleft}</h2>
-        <nav className={styles.NavLinks}>
-          <a className={styles.Parts} href="#About-me">
-            About me
-          </a>
-          <a className={styles.Parts} href="#Skills">
-            Skills
-          </a>
-          <a className={styles.Parts} href="#Projects">
-            Projects
-          </a>
-        </nav>
         <div
           aria-label="Perfiles Profesionales de Leonardo"
           className={styles.WorkLinks}
