@@ -38,11 +38,7 @@ export default function Skills() {
           </figure>
 
           <figure className={styles.Tech}>
-            <img
-              src="images/CssIcon.svg"
-              alt="CSS"
-              className={styles.Image}
-            />
+            <img src="images/CssIcon.svg" alt="CSS" className={styles.Image} />
             <figcaption className={styles.Caption}>CSS</figcaption>
           </figure>
           <figure className={styles.Tech}>
@@ -75,11 +71,7 @@ export default function Skills() {
             </figcaption>
           </figure>
           <figure className={styles.Tech}>
-            <img
-              src="images/GitIcon.svg"
-              alt="Git"
-              className={styles.Image}
-            />
+            <img src="images/GitIcon.svg" alt="Git" className={styles.Image} />
             <figcaption className={styles.Caption}>Git</figcaption>
           </figure>
         </article>
@@ -94,11 +86,7 @@ export default function Skills() {
             <figcaption className={styles.Caption}>C#</figcaption>
           </figure>
           <figure className={styles.Tech}>
-            <img
-              src="images/DotNet.svg"
-              alt=".NET"
-              className={styles.Image}
-            />
+            <img src="images/DotNet.svg" alt=".NET" className={styles.Image} />
             <figcaption className={styles.Caption}>.NET</figcaption>
           </figure>
           <figure className={styles.Tech}>
@@ -111,7 +99,10 @@ export default function Skills() {
           </figure>
         </article>
       </div>
-      <h3>Aunque tambien me encuentro aprendiendo algunas otras.</h3>
+      <h3>
+        Tambien entre las tecnologias se encuentran librerias como puede ser
+        Zustand y React-Router DOM{" "}
+      </h3>
     </section>
   );
 }

@@ -53,6 +53,7 @@
 .Info {
   display: inline-block;
   padding: 30px;
+  color: rgba(255, 255, 255,0.7);
 }
 .Avatar {
   border: solid #68fcff;
