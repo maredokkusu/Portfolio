@@ -69,6 +69,11 @@ export default function Skills() {
             <figcaption className={styles.Caption}>
               Visual Studio Code
             </figcaption>
+
+          </figure>
+           <figure className={styles.Tech}>
+            <img src="images/VisualStudioIcon.svg" alt="Visual Studio" className={styles.Image} />
+            <figcaption className={styles.Caption}>Visual Studio</figcaption>
           </figure>
           <figure className={styles.Tech}>
             <img src="images/GitIcon.svg" alt="Git" className={styles.Image} />
@@ -96,6 +101,31 @@ export default function Skills() {
               className={styles.Image}
             />
             <figcaption className={styles.Caption}>Node.js</figcaption>
+          </figure>
+            <figure className={styles.Tech}>
+            <img
+              src="images/NET.svg"
+              alt="ASP.NET"
+              className={styles.Image}
+            />
+            <figcaption className={styles.Caption}>ASP.NET</figcaption>
+          </figure>
+        
+          <figure className={styles.Tech}>
+            <img
+              src="images/SSMSIcon.svg"
+              alt="SQL SERVER MANAGEMENT STUDIO"
+              className={styles.Image}
+            />
+            <figcaption className={styles.Caption}>SQL Server Studio</figcaption>
+          </figure>
+           <figure className={styles.Tech}>
+            <img
+              src="images/SQLserverIcon.svg"
+              alt="SQL SERVER"
+              className={styles.Image}
+            />
+            <figcaption className={styles.Caption}>SQL Server</figcaption>
           </figure>
         </article>
       </div>
